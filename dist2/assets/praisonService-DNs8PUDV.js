@@ -1,0 +1,1 @@
+import{a as o}from"./index-DUF0xc10.js";const n={checkLicenseCompliance:async r=>{try{const e={repository_url:r};return await o.post("/api/v1/praison/license-check",e)}catch(e){throw console.error("Error checking license compliance:",e),e}}};export{n as default};
